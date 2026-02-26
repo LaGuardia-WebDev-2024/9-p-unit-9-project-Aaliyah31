@@ -13,10 +13,27 @@ draw = function(){
   fill(255, 255, 255);
   
   if (answer == 1) {
-    text("YOUR", 176, 200);
-    text("MESSAGE", 159, 229); 
+    text("YIKES", 178, 200);
+    text("its a chop", 170, 229); 
   }
   
+  if (answer==2){
+    text("OMGGG", 178, 200);
+    text("YESS", 170,229);
+  }
+
+  if (answer ==3) {
+    text("girl break up", 160, 200);
+    text("with him", 170, 260)
+  
+  }
+
+
+//colors when press and hold
+if (mouseY > 200 && mousePressed) {
+  fill(random(255), random(255), random(255));
+  triangle(200, 104, 280, 280, 120, 280);
+}
 };
 
 mouseClicked = function(){
