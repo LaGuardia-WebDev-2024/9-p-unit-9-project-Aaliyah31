@@ -12,6 +12,7 @@ draw = function(){
   triangle(200, 104, 280, 280, 120, 280);
   fill(255, 255, 255);
   
+  //8 ball responses
   if (answer == 1) {
     text("YIKES", 178, 200);
     text("its a chop", 170, 229); 
@@ -19,14 +20,24 @@ draw = function(){
   
   if (answer==2){
     text("OMGGG", 178, 200);
-    text("YESS", 170,229);
+    text("YESS", 185, 229);
   }
 
   if (answer ==3) {
-    text("girl break up", 160, 200);
-    text("with him", 170, 260)
+    text("girl", 194, 200);
+    text("idkkkk", 184, 230)
   
-  }
+    }
+
+    if (answer==4) {
+      text("you got this!!!!", 165, 215)
+    }
+
+    //emojis
+    if (answer==5) {
+      text("according to my", 160, 210);
+      text(" calculations 🤓☝️", 158, 235)
+    }
 
 
 //colors when press and hold
