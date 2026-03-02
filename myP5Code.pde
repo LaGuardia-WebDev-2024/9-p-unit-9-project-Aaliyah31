@@ -5,12 +5,12 @@ setup = function() {
 var answer = 1;
 
 draw = function(){
-  background(100,100,100);
-  fill(0, 0, 0);
+  background(181, 189, 245);
+  fill(255, 201, 233);
   ellipse(200, 200, 375, 375);
-  fill(60, 0, 255);
+  fill(199, 245, 181);
   triangle(200, 104, 280, 280, 120, 280);
-  fill(255, 255, 255);
+  fill(176, 159, 179);
   
   //8 ball responses
   if (answer == 1) {
@@ -37,6 +37,7 @@ draw = function(){
     if (answer==5) {
       text("according to my", 160, 210);
       text(" calculations 🤓☝️", 158, 235)
+      text("I think no", 170, 258)
     }
 
 
